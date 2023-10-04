@@ -38,4 +38,7 @@ public class CashCard {
 
     @Column(name = "amount", nullable = false)
     private Double amount;
+
+    @Column(name = "owner", nullable = false)
+    private String owner;
 }

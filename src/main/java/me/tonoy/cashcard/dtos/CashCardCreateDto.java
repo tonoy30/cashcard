@@ -1,4 +1,7 @@
 package me.tonoy.cashcard.dtos;
 
-public record CashCardCreateDto(Double amount) {
+import java.util.Optional;
+
+public record CashCardCreateDto(Double amount, Optional<String> owner) {
 }
+
